@@ -2,7 +2,9 @@
 <mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8995e8ff-4ee8-4b43-83d6-8821555448ca">
   <producedTypes>
     <objectType typeId="16637e82-b742-48f8-8668-85f4aed9aaf6" valueTypeId="99cb1023-caec-44ff-99cc-2d6032f723a4"/>
-    <refType typeId="0c8222de-0e34-4c8e-9a48-eada75dd46ed" valueTypeId="e17fd65b-b399-4e09-85bc-4acc53e1e7c6"/>
+    <refType typeId="0c8222de-0e34-4c8e-9a48-eada75dd46ed" valueTypeId="e17fd65b-b399-4e09-85bc-4acc53e1e7c6">
+      <emptyRef/>
+    </refType>
     <selectionType typeId="6f86b23e-3954-4b1b-9e36-d97d710e9464" valueTypeId="9123725a-1269-4396-ab41-6889ea9343e3"/>
     <listType typeId="2c8ca06a-1046-4fdd-9a06-dc2465a82a13" valueTypeId="3a761b19-ad2b-4301-ba46-5c8031f38496"/>
     <managerType typeId="838a0570-381c-4de4-bcbc-e3ad7f2f6cbc" valueTypeId="5a9aa163-08bd-412a-ab25-e46a3a2edb51"/>
@@ -25,4 +27,19 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="52a943c3-fa6b-4b03-a0c0-17c071bc9dd1">
+    <name>ТестовыйРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
